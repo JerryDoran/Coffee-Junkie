@@ -1,0 +1,142 @@
+body {
+  font-family: 'Indie Flower', cursive;
+}
+
+/* BANNER */
+header {
+  height: 100vh;
+  background: url(/images/coffee2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.banner-center {
+  height: 100vh;
+  color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  padding-top: 200px;
+}
+
+.banner-center a {
+  font-size: 30px;
+  width: 300px;
+  margin: 0px auto;
+  display: inline-block;
+  border: 3px solid whitesmoke;
+  color: whitesmoke;
+  text-decoration: none;
+  border-radius: 20px;
+  transition-property: all;
+  transition-duration: 1s;
+  /* transition-timing-function: ease-in; */
+}
+
+.banner-center a:hover {
+  background: #f15025;
+  transform: ease-in;
+}
+
+.banner-underline {
+  width: 300px;
+  border: 2px solid #f15025;
+  margin: 0px auto 20px auto;
+  border-radius: 20px;
+}
+
+.dark-overlay {
+  height: 100%;
+  width: 100%;
+
+  /* To make this an actual dark over lay we need to position it absolute within the
+  section element */
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+/* TITLE */
+.title {
+  margin: 20px 0;
+}
+
+.title h1 {
+  margin-bottom: 0;
+}
+
+.title-underline {
+  width: 150px;
+  border: 1px solid #f15025;
+  margin: 0px auto 10px auto;
+  border-radius: 10px;
+}
+
+/* SKILLS SECTION */
+
+#skills {
+  padding: 1rem 2.5rem;
+  color: #2d3142;
+  margin-bottom: 10px;
+}
+
+#skills .fa {
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+#skills a {
+  margin-bottom: 50px;
+  background-color: #f15025;
+  color: whitesmoke;
+  font-size: 20px;
+}
+
+#skills a:hover {
+  background-color: #2d3142;
+}
+
+/* ABOUT SECTION */
+#about {
+  background-color: #2d3142;
+}
+
+#about .pic {
+  height: 600px;
+  background: url(/images/coffee1.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-bottom: 600px solid transparent;
+  border-left: 100px solid #2d3142;
+}
+
+#about .box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: whitesmoke;
+}
+
+/* CONTACT SECTION */
+#contact {
+  padding: 40px;
+  background-color: whitesmoke;
+}
+
+#contact .form-control {
+  font-size: 20px;
+}
+
+#contact button {
+  background-color: #353531;
+  font-size: 24px;
+  color: whitesmoke;
+  margin-bottom: 20px;
+}
+
+#contact button:hover {
+  background-color: #f15025;
+}
