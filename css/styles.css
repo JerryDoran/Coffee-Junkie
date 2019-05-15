@@ -2,6 +2,37 @@ body {
   font-family: 'Indie Flower', cursive;
 }
 
+/* NAVBAR */
+.transparent {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.navbar-toggler {
+  background-color: transparent;
+}
+
+.fas.fa-bars {
+  font-size: 175%;
+  color: white;
+}
+
+.nav-link,
+.navbar-brand {
+  color: whitesmoke !important;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+}
+
+.navbar a:hover {
+  color: #f15025 !important;
+}
+
 /* BANNER */
 header {
   height: 100vh;
@@ -78,6 +109,7 @@ header {
 #skills {
   padding: 1rem 2.5rem;
   color: #2d3142;
+  margin-top: 50px;
   margin-bottom: 10px;
 }
 
@@ -139,4 +171,33 @@ header {
 
 #contact button:hover {
   background-color: #f15025;
+}
+
+/* FOOTER SECTION */
+#footer {
+  padding: 40px;
+  color: whitesmoke;
+  background-color: #353531;
+}
+
+#footer .title-underline {
+  margin-bottom: 40px;
+}
+
+#footer .footer-icons {
+  font-size: 20px;
+  padding-top: 10px;
+}
+
+#footer .footer-icons i {
+  padding: 5px;
+}
+
+#footer .footer-icons i:hover {
+  color: #f15025;
+}
+
+#footer .copyrights {
+  padding: 30px 0;
+  color: #ced0ce;
 }
